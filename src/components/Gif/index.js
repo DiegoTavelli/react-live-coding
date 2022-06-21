@@ -1,9 +1,9 @@
 import React from 'react'
-import {Link} from 'wouter'
+import { Link } from 'wouter'
 import Fav from 'components/Fav'
 import './Gif.css'
 
-export default function Gif ({ title, id, url }) {
+export default function Gif({ title, id, url }) {
   return (
     <div className="Gif">
       <div className="Gif-buttons">

@@ -9,8 +9,11 @@
 }
 
 .App-logo img {
-  object-fit: cover;
-  width: 100%;
+  object-fit: center;
+  width: 250%;
+  margin-left: -125px;
+  animation-direction: alternate-reverse;
+  
 }
 
 .App-title {
@@ -50,11 +53,12 @@
 }
 
 .App-category {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   width: 100%;
+  
 }
 
-@media screen and (min-width: 55rem){
+@media screen and (min-width: 45rem){
   .App-main{
     flex-direction: initial;
   }
@@ -64,6 +68,7 @@
     top: var(--search-size-mx-h);
     width: 40%;
     max-width: 300px;
+    
   }
 }
 

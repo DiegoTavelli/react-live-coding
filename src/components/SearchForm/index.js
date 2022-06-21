@@ -4,7 +4,7 @@ import useForm from './hook'
 import css from "./SearchForm.module.css"
 import Button from 'components/Button'
 
-const RATINGS = ["g", "pg", "pg-13", "r"]
+const RATINGS = ["G", "PG", "PG-13", "R"]
 
 export default function SearchForm({
   initialKeyword = '',
@@ -12,7 +12,7 @@ export default function SearchForm({
 }) {
   const [_, pushLocation] = useLocation()
 
-  const {keyword, rating, changeKeyword, changeRating} = useForm({ initialKeyword, initialRating })
+  const { keyword, rating, changeKeyword, changeRating } = useForm({ initialKeyword, initialRating })
 
   const onSubmit = ({ keyword }) => {
     if (keyword !== '') {
@@ -37,14 +37,7 @@ export default function SearchForm({
   return (
     <>
       <form onSubmit={handleSubmit} className={css["c-search"]}>
-        <Button>Buscar</Button>
-        <input
-          className={css["c-search-input"]}
-          placeholder="Search a gif here..."
-          onChange={handleChange}
-          type="text"
-          value={keyword}
-        />
+        {/* <p>PG</p> */}
         <select className={css["c-search-list"]} value={rating} onChange={handleChangeRating}>
           <option disabled>
             Rating:
@@ -53,6 +46,14 @@ export default function SearchForm({
             <option key={rating}>{rating}</option>
           ))}
         </select>
+        <input
+          className={css["c-search-input"]}
+          placeholder="Search a gif here..."
+          onChange={handleChange}
+          type="text"
+          value={keyword}
+        />
+        <Button>Buscar</Button>
       </form>
     </>
   )

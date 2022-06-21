@@ -28,7 +28,7 @@ export default function Fav({ id }) {
 
   const [label, emoji] = isFaved
     ? ["Remove Gif from favorites", "❌"]
-    : ["Add Gif to favorites", "❤️"];
+    : ["Add Gif to favorites", "💜"];
 
   return (
     <>

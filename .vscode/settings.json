@@ -1,1 +1,9 @@
-{ "deno.enable": false}
+{
+	
+	"liveFrame.url": "http://localhost:3000",
+  "liveFrame.title": "Local Development",
+  "liveFrame.pane": "Beside",
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 30
+
+}

@@ -25,7 +25,7 @@ export default function App() {
             <Header />
             <Link to="/">
               <figure className="App-logo">
-                <img alt="Giffy logo" src="/logo.png" />
+                <img alt="Giffy logo" src="/My project.png" />
               </figure>
             </Link>
             <GifsContextProvider>
