@@ -1,10 +1,14 @@
 .c-search {
+  
+  width: 100%;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: var(--theme-body-bg);
+  background-image: linear-gradient(-55deg, transparent, transparent, transparent, transparent,var(--brand-color_6),var(--brand-color_5), var(--brand-color_2), transparent, transparent, transparent, transparent);
   margin: 0 auto 30px;
+  
 }
 
 .c-search-list {
@@ -14,9 +18,10 @@
   appearance: none;
   background-color: #fff;
   background: #fff;
-  border: 0;
+  border: transparent;
   border-radius: 19px;
-  border-left: 1px solid #ccc;
+  box-shadow: 1px 1px 2px var(--brand-color_5);
+  /* border-left: 1px solid #ccc; */
   line-height: 1.3;
   margin: 0;
   max-width: 100%;
@@ -29,11 +34,12 @@
 
 .c-search-input {
   font-size: 16px;
-  border: blueviolet;
   border-radius: 19px;
   padding: 4px 16px;
   margin-left: 5px;
   margin-right: 5px;
+  box-shadow: 1px 1px 2px var(--brand-color_5);
+  border: transparent;
   
 }
 

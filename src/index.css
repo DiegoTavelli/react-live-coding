@@ -3,7 +3,7 @@
   --theme--contrast-0: #121212;
   /* --theme-body-bg: #1c1539; */
   background-image: linear-gradient(rgb(17, 17, 21),#3b1fab, rgb(89, 39, 159), rgb(212, 108, 48), black);
-  --theme-body-txt: #f3f3f3;
+  --theme-body-txt: #1c053b;
   --search-size-mx-h: 3rem;
   --zIndex-header: 20;
   --zIndex-component: 5;
@@ -12,7 +12,8 @@
   --brand-color_3: #4c36af;
   --brand-color_4: tomato;
   --brand-color_5: #fff35c;
-  --brand-color_6: #8429de;
+  --brand-color_6: #721fc6;
+  --brand-color_7: #721fc6;
 }
 
 html {

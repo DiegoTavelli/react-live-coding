@@ -4,6 +4,6 @@
   "liveFrame.title": "Local Development",
   "liveFrame.pane": "Beside",
 	"files.autoSave": "afterDelay",
-	"files.autoSaveDelay": 30
+	"files.autoSaveDelay": 1000
 
 }

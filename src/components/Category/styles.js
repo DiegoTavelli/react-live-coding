@@ -15,10 +15,11 @@ export const CategoryTitle = styled.h3`
 
 export const CategoryList = styled.ul`
   list-style-position: inside;
-  display: flex;
+  display: column;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
+  margin-left: 50px;
 
   ${bps.greaterThanMobile} {
     justify-content: flex-end;
@@ -37,9 +38,11 @@ const generateMultiColorCategory = props => {
 }
 
 export const CategoryListItem = styled.li`
-	list-style: none;
+  text-align: center;
+	border-radius: 20px;
+  list-style: none;
 	padding: 0.3rem;
-	margin: 0.2rem;
+	margin: 0.5rem;
   font-size: 1.2rem;
   
   ${generateMultiColorCategory}

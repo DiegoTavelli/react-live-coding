@@ -1,6 +1,7 @@
 .gf-header {
-  display: flex;
+  display: fixed;
   justify-content: flex-end;
+  
 }
 
 .gf-header a {
