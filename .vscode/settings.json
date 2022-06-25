@@ -4,6 +4,10 @@
   "liveFrame.title": "Local Development",
   "liveFrame.pane": "Beside",
 	"files.autoSave": "afterDelay",
-	"files.autoSaveDelay": 1000
-
+	"files.autoSaveDelay": 1000,
+	"editor.fastScrollSensitivity": 1,
+	"editor.mouseWheelZoom": true,
+  "editor.mouseWheelScrollSensitivity": 1,
+  "workbench.list.mouseWheelScrollSensitivity": 1,
+  "terminal.integrated.mouseWheelScrollSensitivity": 1
 }

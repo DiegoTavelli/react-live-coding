@@ -37,6 +37,11 @@ export const Link = styled(LinkWouter)`
     opacity: .3;
     pointer-events: none;
   }
+
+${'' /* css shadow gradient */}
+
+
+
 `
 
 export const Button = Link.withComponent('button')

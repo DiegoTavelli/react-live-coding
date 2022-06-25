@@ -34,18 +34,21 @@ const generateMultiColorCategory = props => {
 
   return `
     background-color: var(--brand-color_${colorIndex});
-    color: ${colorText};`
+    color: ${colorText};
+    
+    `
 }
 
 export const CategoryListItem = styled.li`
   text-align: center;
-	border-radius: 20px;
+	border-radius: 50px;
   list-style: none;
 	padding: 0.3rem;
 	margin: 0.5rem;
   font-size: 1.2rem;
   
   ${generateMultiColorCategory}
+                 
 `
 
 export const CategoryLink = styled(Link)`

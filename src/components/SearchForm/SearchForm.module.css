@@ -1,13 +1,13 @@
 .c-search {
   
   width: 100%;
-  border-radius: 50px;
+  border-radius: 100px;
   display: flex;
   justify-content: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.4rem;
+  padding-bottom: .3rem;
   background-image: linear-gradient(-55deg, transparent, transparent, transparent, transparent,var(--brand-color_6),var(--brand-color_5), var(--brand-color_2), transparent, transparent, transparent, transparent);
-  margin: 0 auto 30px;
+  margin: 0 auto 50px;
   
 }
 
@@ -42,4 +42,6 @@
   border: transparent;
   
 }
+
+
 
