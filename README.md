@@ -1,9 +1,9 @@
 
 
-Practicando CSS con Emotion CSS y CSS Modules. 
+Practicing CSS with Emotion CSS and CSS Modules. 
 
-Proyecto forkeado de curso online By Midudev.
+Project forked from online course By Midudev.
 
-Arriba muestro el proyecto antes y debajo con mis modificaciones.
+Above I show the project before and below with my modifications.
 
 ![Sin título](https://user-images.githubusercontent.com/100493436/180623957-612d384c-5a5b-4d7d-96be-dc86f5246c30.png)
